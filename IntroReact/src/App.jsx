@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Components/Navbar';
 import StudentCard from './Components/StudentCard';
 import students from './assets/student';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
         ))}
       </div>
     </div>
-
+<Footer/>
   </> 
   ); 
 }
